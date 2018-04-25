@@ -5,7 +5,7 @@ data class Student3(var s: String,var r :Int){
 
 }
 
-object classroom1{
+object `class`{
 
     var student= arrayListOf<Student3>()
 
@@ -20,8 +20,8 @@ object classroom1{
 
 fun main (args:Array<String>){
 
-    classroom1.student.add(Student3("Ali",99));
-    classroom1.student.add(Student3("Sunny",211));
+    `class`.student.add(Student3("Ali",99));
+    `class`.student.add(Student3("Sunny",211));
 
-    classroom1.showAll()
+    `class`.showAll()
 }
